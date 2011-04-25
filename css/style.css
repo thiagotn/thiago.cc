@@ -10,7 +10,7 @@ body {
 
 a {
   color: #000;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -18,10 +18,9 @@ a:hover {
 }
 
 h1 {
-  font-family: 'VT323', Georgia, serif;
+  font-family: "lucida grande", verdana, sans-serif;
   font-weight: normal;
-  padding-top: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -42,6 +41,15 @@ p {
   border: 0px solid #666;
   overflow: hidden;
   text-align: justify;
+}
+
+.button a:hover {
+  text-decoration: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: #000;
 }
 
 .container_12,
