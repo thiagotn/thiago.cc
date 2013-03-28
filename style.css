@@ -1,0 +1,100 @@
+@font-face {
+	font-family: "Museo 700 Regular";
+	src: url("fonts/museo700.otf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #fff;
+	font-family: "Museo 700 Regular", helvetica, arial, sans-serif;
+}
+
+header {
+	visibility: hidden;
+}
+
+h1 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#page {
+	left: 50%;
+	height: 300px;
+	margin: -150px 0 0 -360px;
+	position: absolute;
+	top: 50%;
+	width: 720px;
+}
+
+.summary {
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+
+.additional, .additional * {
+	color: #8c9198;
+	font-size: 18px;
+}
+
+.summary, .additional {
+	color: #111;
+	text-shadow: 1px 1px #111;
+}
+
+.additional {
+	margin: 10px 0;
+}
+
+strong {
+	color: #fff000;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	margin-right: 10px;
+}
+
+li a {
+	background: transparent no-repeat;
+	display: block;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 16px;
+}
+
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
