@@ -32,6 +32,8 @@ h1 {
 }
 
 .summary {
+	border: 1px;
+	color: #fff;
 	font-size: 40px;
 	letter-spacing: -1px;
 	line-height: 1;
